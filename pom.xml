@@ -200,7 +200,7 @@
         <directory>${basedir}/src/test/resources</directory>
       </testResource>
     </testResources>
-
+	<pluginManagement>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -241,8 +241,8 @@
         </executions>
       </plugin>
     </plugins>
+	</pluginManagement>
   </build>
-
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
